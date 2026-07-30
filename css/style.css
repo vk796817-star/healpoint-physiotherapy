@@ -1,1 +1,77 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
 
+body{
+background:#f7fbfd;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:linear-gradient(135deg,#0A6EBD,#00B894);
+color:#fff;
+padding:20px;
+text-align:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+header h1{
+font-size:32px;
+}
+
+header p{
+font-size:18px;
+margin-top:8px;
+}
+
+section{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+}
+
+.card{
+background:#fff;
+padding:30px;
+border-radius:16px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+margin-bottom:25px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+margin:10px;
+}
+
+.call{
+background:#28a745;
+color:#fff;
+}
+
+.whatsapp{
+background:#25D366;
+color:#fff;
+}
+
+footer{
+background:#0A6EBD;
+color:#fff;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
